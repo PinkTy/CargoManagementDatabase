@@ -1,0 +1,122 @@
+Unhandled SystemException on 2018/06/04 11:24:30 by [187.31] pid 01d30, tid 3378
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.18 (transient)
+  Caused By:
+    Receiver: DeliveryorderAdd/2117.3 (transient)
+    Method: DeliveryorderAdd::check_click(340)  -- 		self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.18 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'
+Unhandled SystemException on 2018/06/04 11:24:37 by [187.31] pid 01d30, tid 3378
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.18 (transient)
+  Caused By:
+    Receiver: DeliveryorderAdd/2117.3 (transient)
+    Method: DeliveryorderAdd::submit_click(328)  -- 		self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.18 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'
+Unhandled SystemException on 2018/06/04 11:27:05 by [187.31] pid 01d30, tid 3378
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.60 (transient)
+  Caused By:
+    Receiver: DeliveryorderEdit/2120.6 (transient)
+    Method: DeliveryorderEdit::submit_click(236)  -- self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.60 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'
+Unhandled SystemException on 2018/06/04 17:04:06 by [187.210] pid 01d30, tid 0a2c
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.4 (transient)
+  Caused By:
+    Receiver: DeliveryorderAdd/2117.1 (transient)
+    Method: DeliveryorderAdd::check_click(340)  -- 		self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.4 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'
+Unhandled SystemException on 2018/06/04 17:05:18 by [187.210] pid 01d30, tid 0a2c
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.4 (transient)
+  Caused By:
+    Receiver: DeliveryorderAdd/2117.1 (transient)
+    Method: DeliveryorderAdd::check_click(340)  -- 		self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.4 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'
+Unhandled SystemException on 2018/06/04 17:07:46 by [187.210] pid 01d30, tid 0a2c
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 4 (not continuable, resumable)
+* Object not found
+  Error object: DeliveryIDDict/2075.87.2119.2.2
+  Caused By:
+    Receiver: ListBox/499.4 (transient)
+    Method: ListBox::displayCollection(4032)  -- 'ListBoxDisplayCollection' in 'jadpmap' @ line# 4032
+Unhandled SystemException on 2018/06/04 17:08:01 by [187.210] pid 01d30, tid 0a2c
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1025 (not continuable, resumable)
+* Already in transaction state
+  Caused By:
+    Receiver: ManageGeneralCargoView/2066.1 (transient)
+    Method: ManageGeneralCargo::initialize(132)  -- 		beginTransaction;
+Unhandled SystemException on 2018/06/04 17:09:29 by [187.210] pid 01d30, tid 0a2c
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 4 (not continuable, resumable)
+* Object not found
+  Error object: DeliveryIDDict/2075.88.2119.2.2
+  Caused By:
+    Receiver: ListBox/499.7 (transient)
+    Method: ListBox::displayCollection(4032)  -- 'ListBoxDisplayCollection' in 'jadpmap' @ line# 4032
+Unhandled SystemException on 2018/06/04 17:09:45 by [187.210] pid 01d30, tid 0a2c
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1025 (not continuable, resumable)
+* Already in transaction state
+  Caused By:
+    Receiver: ManageGeneralCargoView/2066.1 (transient)
+    Method: ManageGeneralCargo::initialize(132)  -- 		beginTransaction;
+Unhandled SystemException on 2018/06/04 17:17:31 by [187.223] pid 01d30, tid 24c4
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 4 (not continuable, resumable)
+* Object not found
+  Error object: ContainerByNumberDict/2063.90.2119.2.1
+  Caused By:
+    Receiver: ListBox/499.12 (transient)
+    Method: ListBox::displayCollection(4032)  -- 'ListBoxDisplayCollection' in 'jadpmap' @ line# 4032
+Unhandled SystemException on 2018/06/04 19:34:59 by [187.295] pid 01d30, tid 19f0
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.4 (transient)
+  Caused By:
+    Receiver: DeliveryorderAdd/2117.1 (transient)
+    Method: DeliveryorderAdd::submit_click(265)  -- 		self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.4 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'
+Unhandled SystemException on 2018/06/04 19:35:09 by [187.295] pid 01d30, tid 19f0
+Computer= LAW110-61, Application= ManageGeneralCargoView, Schema= ManageGeneralCargoView
+  SystemException: 1802 (not continuable, resumable)
+* Source character does not match the format rules
+  Error item: getTextAsCurrencyDecimal
+  Error object: TextBox/509.11 (transient)
+  Caused By:
+    Receiver: DeliveryorderEdit/2120.2 (transient)
+    Method: DeliveryorderEdit::submit_click(236)  -- self.totalvalueshow.caption := (distancetxt.getTextAsCurrencyDecimal * 150).String;
+  Reported By:
+    Receiver: TextBox/509.11 (transient)
+    Method: TextBox::getTextAsCurrencyDecimal  -- 'TextBoxGetTextAsCurrency' in 'jadpmap'

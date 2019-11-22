@@ -1,0 +1,4 @@
+#MULTIPLE_SCHEMA_EXTRACT
+ManageGeneralCargo.scm ManageGeneralCargo.ddb
+ManageGeneralCargoView.scm ManageGeneralCargoView.ddb
+TestCase.scm TestCase.ddb
